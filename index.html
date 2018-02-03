@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>For-loop Codes Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="wrapper">
+    <h1>For-loop Codes Generator</h1>
+    <div class="content">
+      <div class="pt10 clearfix clear-font-size">
+          <textarea id="content" placeholder="Base Codes"></textarea>
+          <textarea id="result" placeholder="Generated Codes" readonly="readonly"></textarea>
+      </div>
+      <div class="pt10 clearfix clear-font-size right">
+        <span class="tips">for-loop param format:</span>
+        <input type="text" id="param">
+        <span class="tips">min:</span>
+        <input type="text" id="min">
+        <span class="tips">step:</span>
+        <input type="text" id="step">
+        <span class="tips">max:</span>
+        <input type="text" id="max">
+        <input type="button" value="Generate" class="btn-blue" id="generate">
+        <input type="button" value="Copy" id="copy" data-clipboard-target="result">
+        <input type="button" value="Clear" id="clear">
+      </div>
+    </div>
+  </div>
+  <a href="https://github.com/nfer/for-loop-codes-generator">
+    <img class="forkme" src="forkme_right_red_aa0000.png" alt="Fork me on GitHub">
+  </a>
+</body>
+</html>

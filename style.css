@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #e8e8e8;
+    line-height: 1.5;
+}
+
+.clearfix {
+    clear: both;
+}
+.clear-font-size {
+    font-size: 0;
+}
+.pt10 {
+    padding-top: 10px;
+}
+.right {
+	text-align: right;
+}
+
+#wrapper {
+    width: 1200px;
+	margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    font-weight: normal;
+    text-align: center;
+    font-family: Copse;
+    text-shadow: 1px 1px 0 #000, 1px 1px 0px #ccc;
+}
+
+.tips {
+    font-size: 14px;
+    height: 35px;
+	line-height: 35px;
+	margin: 0 10px;
+}
+
+input {
+    border: none;
+    color: #0474c8;
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+	display: inline-block;
+}
+input + input {
+    margin-left: 10px;
+}
+input[type=button] {
+    cursor: pointer;
+    padding: 0px 12px;
+	text-align: center;
+}
+input[type=text] {
+    padding: 0px 5px;
+	text-align: left;
+	width: 30px;
+}
+input.btn-blue {
+    background-color: #55a7e3;
+    color: #fff;
+}
+
+textarea {
+    width: 548px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #c6cede;
+    font-size: 16px;
+    overflow: auto;
+    vertical-align: top;
+    outline: none;
+    resize: none;
+}
+textarea + textarea {
+    margin-left: 20px;
+}
+
+.forkme {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 0;
+}
